@@ -22,12 +22,4 @@ public class ClaseExamenTest {
 		assertEquals(0f, resultado, 0f);
 	}
 	
-//	// P3: 1-2-4-6-7
-//	@Test
-//	public void camino_p3() {
-//		ClaseExamen instancia = new ClaseExamen();
-//		float resultado = instancia.metodoAProbar(1, 2);
-//		assertEquals(2f, resultado, 0f);
-//	}
-
 }
