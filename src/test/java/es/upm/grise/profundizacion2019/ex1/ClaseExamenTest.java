@@ -6,9 +6,28 @@ import org.junit.Test;
 
 public class ClaseExamenTest {
 
+	// P1: 1-2-4-5-7
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void camino_p1() {
+		ClaseExamen instancia = new ClaseExamen();
+		float resultado = instancia.metodoAProbar(2, 2);
+		assertEquals(0f, resultado, 0f);
 	}
+	
+	// P2: 1-2-3-2-4-5-7
+	@Test
+	public void camino_p2() {
+		ClaseExamen instancia = new ClaseExamen();
+		float resultado = instancia.metodoAProbar(3, 2);
+		assertEquals(0f, resultado, 0f);
+	}
+	
+//	// P3: 1-2-4-6-7
+//	@Test
+//	public void camino_p3() {
+//		ClaseExamen instancia = new ClaseExamen();
+//		float resultado = instancia.metodoAProbar(1, 2);
+//		assertEquals(2f, resultado, 0f);
+//	}
 
 }
